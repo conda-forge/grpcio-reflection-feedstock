@@ -1,5 +1,5 @@
 {% set name = "grpcio-reflection" %}
-{% set version = "1.48.1" %}
+{% set version = "1.49.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/grpcio-reflection-{{ version }}.tar.gz
-  sha256: 8b21db7ce9ace48c16e4093b7eda95c5f3cc3bf55628e6246f94971809c6675e
+  sha256: 7683ce209d229b8ca5e1512e5c4cc4b1711f4dee02915da3b9c0de03234d8d21
 
 build:
   noarch: python

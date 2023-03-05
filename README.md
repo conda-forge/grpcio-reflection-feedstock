@@ -1,11 +1,11 @@
-About grpcio-reflection
-=======================
+About grpcio-reflection-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/grpcio-reflection-feedstock/blob/main/LICENSE.txt)
 
 Home: https://grpc.io
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/grpcio-reflection-feedstock/blob/main/LICENSE.txt)
 
 Summary: Standard Protobuf Reflection Service for gRPC
 

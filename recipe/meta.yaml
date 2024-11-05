@@ -1,13 +1,13 @@
 {% set name = "grpcio-reflection" %}
-{% set version = "1.62.2" %}
+{% set version = "1.67.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/grpcio-reflection-{{ version }}.tar.gz
-  sha256: 2dd44806d68d0006636529bda573012b19a42281478c2d051cdaaebb91e2516c
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 507d9785a72032816e9bb5add4a660c655813a6bc1537b957822c652c88bf458
 
 build:
   noarch: python
@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools
   run:
     - grpcio ={{ version }}
     - protobuf >=3.12.0

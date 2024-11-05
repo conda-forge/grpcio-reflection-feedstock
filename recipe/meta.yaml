@@ -15,11 +15,10 @@ build:
   number: 0
 
 requirements:
-  build:
-    - setuptools
   host:
     - pip
     - python >=3.6
+    - setuptools
   run:
     - grpcio ={{ version }}
     - protobuf >=3.12.0

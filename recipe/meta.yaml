@@ -1,13 +1,13 @@
 {% set name = "grpcio-reflection" %}
-{% set version = "1.83.0" %}
+{% set version = "1.83.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 6a2a30a462ac2c3c6d149734a8fe655fa7617c17fa2cda9949006f3bf07f5b3e
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: c33953f2eae1313ab1d2c2b6a1cec6ddaebe6763da1b2631980792d9792e6233
 
 build:
   noarch: python
